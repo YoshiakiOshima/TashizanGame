@@ -10,4 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *playBtn;
+@property (weak, nonatomic) IBOutlet UIButton *titleBtn;
+@property NSUserDefaults *playUD;
+
+
+- (IBAction)pushBack:(UIStoryboardSegue *)segue;
+- (IBAction)toItunes:(id)sender;
+
+
 @end
