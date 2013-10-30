@@ -145,7 +145,7 @@
 }
 
 - (void)reportGameCenter {
-    GKScore *scoreReporter1 = [[GKScore alloc] initWithCategory:@"hitasuraASHIscore"];
+    GKScore *scoreReporter1 = [[GKScore alloc] initWithCategory:@"-----------------"];
     int64_t score1 = resultScore;
     scoreReporter1.value = score1;
     [scoreReporter1 reportScoreWithCompletionHandler:^(NSError *error) {
