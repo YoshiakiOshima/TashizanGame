@@ -48,7 +48,7 @@
     if (rect.size.height==568) {
         self.nadView1=[[NADView alloc] initWithFrame:CGRectMake(0, 20, 320, 50)];
         [self.nadView1 setIsOutputLog:NO];
-        [self.nadView1 setNendID:@"44bc808351178a849ba6db27b91717f3b9d6ca3c" spotID:@"94779"];
+        [self.nadView1 setNendID:@"-----------------------------" spotID:@"------"];
         [self.nadView1 setDelegate:self];
         [self.nadView1 load];
         
@@ -56,7 +56,7 @@
     
     _nadView2 = [[NADView alloc] initWithFrame:CGRectMake(0.f, rect.size.height-50, NAD_ADVIEW_SIZE_320x50.width, NAD_ADVIEW_SIZE_320x50.height)];
     // apiKey, spotID をセットする
-    [_nadView2 setNendID:@"3a9344494a184f107104858d4d9754b3c2d0e1f1" spotID:@"101154"];
+    [_nadView2 setNendID:@"--------------------------" spotID:@"------"];
     // デリゲートオブジェクトの指定
     [_nadView2 setDelegate:self];
     // 広告のロードを開始
